@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Bongojo</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+   
+    <header class="header">
+        <h1>Bongojo</h1>
+        <nav>
+            <a href="#inicio">Inicio</a>
+            <a href="#habilidades">Habilidades</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+    </header>
+
+  
+    <section id="inicio" class="amigo">
+        <div class="amigo-contenido">
+            <img src="image/image.png" alt="Bongojo elegante" class="imagen-amigo">
+            <h2>Satoru Bongojo</h2>
+            <p>Una página dedicada al más fuerte.</p>
+            <button onclick="scrollHabilidades()">Ver habilidades</button>
+        </div>
+    </section>
+
+   
+    <section id="habilidades" class="laseccion">
+        <h2 class="section-title">Habilidades</h2>
+
+        <div class="cards">
+            <div class="card">
+                <h3>Escucha phonk</h3>
+                <p>Escucha música de última generación para ponerse insano.</p>
+            </div>
+
+            <div class="card">
+                <h3>Moggear profesionalmente</h3>
+                <p>Domina el arte del moggeo con precisión quirúrgica.</p>
+            </div>
+
+            <div class="card">
+                <h3>Press banca</h3>
+                <p>A veces se le cae el peso, pero con estilo.</p>
+            </div>
+        </div>
+    </section>
+
+    
+<section id="video" class="laseccion">
+    <h2 class="section-title">Video Épico</h2>
+    <p>Un momento legendario digno del portafolio de Bongojo.</p>
+
+    <div class="video-contenedor">
+        <iframe 
+            src="https://www.youtube.com/embed/wAMZ6KpMGQI"
+            title="CREEPER VS ZOMBIE"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen>
+        </iframe>
+    </div>
+</section>
+
+
+    <section id="contacto" class="seccion-contacto">
+        <h2 class="section-title">Contacto</h2>
+        <p>¿Quieres contactar al hechicero más fuerte?</p>
+
+        <button onclick="mostrarContacto()">Mostrar contacto</button>
+        <p id="dato-contacto" class="dato-contacto">656 852 0967</p>
+    </section>
+
+
+    <footer class="footer">
+        <p>© Diego Araiza | Apps Web Orientadas a Servicios – GitHub Pages</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
